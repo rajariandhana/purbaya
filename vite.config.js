@@ -25,6 +25,11 @@ export default defineConfig({
         "bg-fuchsia-500", "bg-fuchsia-100", "text-fuchsia-500", "text-fuchsia-100",
         "bg-pink-500", "bg-pink-100", "text-pink-500", "text-pink-100",
         "bg-rose-500", "bg-rose-100", "text-rose-500", "text-rose-100",
+        "bg-slate-500", "bg-slate-100", "text-slate-500", "text-slate-100",
+        "bg-gray-500", "bg-gray-100", "text-gray-500", "text-gray-100",
+        "bg-zinc-500", "bg-zinc-100", "text-zinc-500", "text-zinc-100",
+        "bg-neutral-500", "bg-neutral-100", "text-neutral-500", "text-neutral-100",
+        "bg-stone-500", "bg-stone-100", "text-stone-500", "text-stone-100",
       ]
     }),
   ],

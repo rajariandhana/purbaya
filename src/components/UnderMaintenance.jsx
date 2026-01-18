@@ -3,9 +3,7 @@ import { Alert, Button, Link } from "@heroui/react";
 export default function UnderMaintenance() {
   const description = () => {
     return (
-      <p>
-        Oops, this page is under maintenance, please come back later...
-      </p>
+      <p>Oops, this page is under maintenance, please come back later...</p>
     );
   };
   return (
