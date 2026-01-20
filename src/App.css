@@ -9,5 +9,5 @@
 }
 
 .bg-primary {
-    @apply bg-emerald-500;
+    @apply bg-rose-500;
 }

@@ -70,13 +70,19 @@ export function Transactions() {
           </span>
         );
       case "date":
-        return dateOnly(transaction.timestamp);
+        return String(dateOnly(transaction.timestamp)).slice(-2);
       default:
         return "";
     }
   };
   return (
-    <Table isStriped hideHeader removeWrapper fullWidth={true}>
+    <Table
+      isStriped
+      hideHeader
+      removeWrapper
+      fullWidth={true}
+      aria-label="Transactions Table"
+    >
       <TableHeader columns={columns}>
         {(column) => (
           <TableColumn key={column.key} width={column.width}>
